@@ -1,0 +1,92 @@
+body,* {
+  cursor: url('Vriam.png') 16 16, auto;
+}
+
+html, body {
+  width: 1920px;
+  height: 1080px;
+  margin: 0;
+  padding: 0;
+
+}
+#player {
+  width: 800px;   /* Cambia el valor según el tamaño que desees */
+  height: 450px;  /* O usa 'auto' para mantener la proporción */
+}
+
+
+
+body {
+  background-image: url('Fondo.jpg');
+
+
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  text-size-adjust: 100px;
+    
+  font-family: Artemis;
+  overflow: hidden; /* Opcional, para evitar scroll */
+}
+
+
+h1 {
+  
+  font-size: 50px;
+  -webkit-text-stroke-width:0.2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.btnMusic{
+  background-color: rgb(0, 187, 255);
+  width: 100px;
+  height: 30px;
+}
+.btnMusic:hover {
+  background-color: rgb(0, 113, 154);
+  width: 100px;
+  height: 30px;
+}
+
+
+
+.table{
+ font-size:25px ;
+  color: rgb(0, 0, 0);
+}
+#thead{
+  background-color: rgb(0, 113, 154);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+#detail {
+
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+
+@font-face {
+  font-family: Artemis;
+  src: url("/Mine/Aquire-BW0ox.otf");
+}
+
+#XDboton {
+position: absolute;
+  top: 300px;   
+  left: 1079px;  
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    background-size: 0; /* Inicia sin imagen visible */
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.2s ease; /* Transición para todas las propiedades */
+}
+
+#XDboton:hover {
+    background-image: url('Adolfo.webp');
+    background-size: cover; /* La imagen cubre todo el botón */
+  height: 75px;
+}
