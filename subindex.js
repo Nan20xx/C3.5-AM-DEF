@@ -3,22 +3,22 @@ var enlistado= [
 {
 "nombre":"Brooklin",
 "autor":"mrsoshadow",
-"path":"/Cubeta/bruqulin.mp4"
+"path":"Cubeta/bruqulin.mp4"
 },
 {
 "nombre":"Amenaza",
 "autor":"jordiWild",
-"path":"/Cubeta/Amenaza.mp4"
+"path":"Cubeta/Amenaza.mp4"
 },
 {
 "nombre":"The Ballad of Mona Lisa",
 "autor":"Panic! At The Disco",
-"path":"/Cubeta/Mona_Lisa.mp3"
+"path":"Cubeta/Mona_Lisa.mp3"
 },
 {
 "nombre":"ERIKA",
 "autor":"XD",
-"path":"/Cubeta/ERIKA.mp3"
+"path":"Cubeta/ERIKA.mp3"
 
 
 
